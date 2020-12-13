@@ -107,11 +107,13 @@
   justify-content: center;
   top: 100px;
   margin-bottom: 190px;
+  flex-direction: column;
 }
 .general {
   position: relative;
   font-family: system-ui;
   width: 80%;
+  left: 10%;
 }
 .faqHeader {
   font-size: 1.8em;
@@ -135,13 +137,13 @@
   text-decoration: none;
   color: #007bff;
 }
-.card-header h4 yes-toggle {
+.card-header h4 p yes-toggle {
   display: block;
+  color: black;
 }
 .card-header h4 p no-toggle {
   display: none;
 }
-
 .card-block {
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -171,7 +173,7 @@ footer {
       visibility: hidden;
   }
   .hamburger{
-    position: relative;
+    /* position: relative; */
     right: 100px;
   }
 }
